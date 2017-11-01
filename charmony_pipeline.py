@@ -90,7 +90,7 @@ def charmony_run(color_matching_method, clothing_image_path, closet_image_path):
                                              new_basewidth = 600)
     
     image_of_possible_matches=fix_color(image_of_possible_matches,
-                                        percentile_correction = 0.1)
+                                        percentile_correction = 10)
     
 
     ##########################################################
