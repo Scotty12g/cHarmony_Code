@@ -34,7 +34,7 @@ def charmony_run(color_matching_method, clothing_image_path, closet_image_path):
     color_detector = Pickler.load_pickle(color_detector_pickled)
     color_detector_pickled.close()
     
-    # define the Red Green Blue profiles centers for for each possibloe color
+    # define the Red Green Blue profiles centers for each possible color
     color_dict = {'red':(255, 0, 0),
                   'yellow' : (255, 255, 0),
                   'green' : (0, 255, 0),
